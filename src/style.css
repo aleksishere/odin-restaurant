@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Hylia;
+    src: url(./HyliaSerifBeta-Regular.otf);
+}
+
+body {
+    font-family: Hylia;
+    background-color: #1111;
+    margin: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+#content {
+    display: grid;
+    gap: 50px;
+}
+
+#top-wrapper {
+    background-color: #c39b6d;
+    padding: 20px 0;
+}
+
+header {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    font-size: 40px;
+    margin: 0;
+    padding-left: 0;
+}
+
+li:hover {
+    color: white;
+}
+
+.border-line {
+    border-top: 2px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 50px;
+}
+
+footer {
+    background-color: #c39b6d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 900px;
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tab {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    font-size: 20px;
+    background-color: #c39b6d;
+    border-radius: 3px;
+}
+
+.tab-text {
+    margin: 20px 12px;
+}
+
+.tab:nth-child(1) .tab-img {
+    background-image: url(https://www.zelda.com/tears-of-the-kingdom/_images/features/features-skies-medium-up.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.tab:nth-child(2) .tab-img {
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2023/03/zelda-breath-of-the-wild-botw-dishes-cooking.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.tab:nth-child(3) .tab-img {
+    background-image: url(https://www.cheatsheet.com/wp-content/uploads/2021/12/Legend-of-Zelda-Breath-of-the-Wild-Satori-Mountain-Lord-of-the-Mountain.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.menu-item {
+    background-color: #c39b6d;
+    display: flex;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.menu-item p {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.img-wrapper {
+    display: flex;
+    align-items: center;
+}
